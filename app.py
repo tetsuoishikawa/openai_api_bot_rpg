@@ -69,8 +69,8 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" 対話型ゲーム")
-st.image("05_rpg.png")
+st.title(" 対話型RPG")
+st.image("591efd8b-b1b3-40f5-87e3-3376538cc2b6.jpg")
 st.write("中世風RPGです。行動回数が0になる前に魔王を倒してください。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
